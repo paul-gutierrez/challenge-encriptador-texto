@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encriptador y desencriptador de texto">
+    <meta name="author" content="Paul Gutiérrez Vázquez">
+    <title>Challenge Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Encriptador de texto</h1>
+    </header>
+
+    <main>
+        <section id="input-section">
+            <form id="text-form">
+                <textarea id="user-input" name="user-input" placeholder="Ingrese el texto aqui" required></textarea>
+
+                <p id="input-rules">Solo letras minúsculas y sin acentos.</p>
+                
+                <div class="buttons">
+                    <button type="button" id="button_encriptar">Encriptar</button>
+                    <button type="button" id="button_desencriptar">Desencriptar</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="output-section">
+            <div id="result" class="empty">
+                <span id="placeholder-text">No se detectó ningún texto</span>
+                <img src="assets/cow.png" alt="Resultado inicial"/>
+            </div>
+            <button id="copy-button">Copiar Texto</button>
+        </section>
+        
+        
+    </main>
+
+    <footer>
+        <p>2024 Paul Gutiérrez Vázquez</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/paul-gutiérrez-vázquez-986393298/" target="_blank" title="Mi LinkedIn">
+                <img src="assets/linkedin.png" alt="LinkedIn"/>
+            </a>
+            <a href="https://github.com/paul-gutierrez" target="_blank" title="Mi GitHub">
+                <img src="assets/github.png" alt="GitHub"/>
+            </a>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
